@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.15">
+	<ConfigVersions>
+		<Metadata name="AccumulationRegister.ЗадолженностьКазначея" id="996bd4e0-298e-4e5a-a1b8-489e84aea7f1" configVersion="ea27f6759733894b8be3afadd336636f00000000">
+			<Metadata name="AccumulationRegister.ЗадолженностьКазначея.Dimension.Мероприятие" id="279e750a-8e8d-48b3-ae8b-e9ad3589aecf"/>
+			<Metadata name="AccumulationRegister.ЗадолженностьКазначея.Resource.Сумма" id="2f4838b5-6857-428c-becc-87ee616f03bb"/>
+		</Metadata>
+		<Metadata name="AccumulationRegister.ЗадолженностьУчастников" id="b4749a32-330f-400f-b329-613b8fcb8c81" configVersion="80ef502e86166142b3be058fad572c9c00000000">
+			<Metadata name="AccumulationRegister.ЗадолженностьУчастников.Dimension.Мероприятие" id="3ab3cf6d-ace8-4133-81ae-b30adc37ecbd"/>
+			<Metadata name="AccumulationRegister.ЗадолженностьУчастников.Dimension.Участник" id="44a70629-0cc3-4bd4-8d5b-558fc3c33aac"/>
+			<Metadata name="AccumulationRegister.ЗадолженностьУчастников.Resource.Сумма" id="8d134e18-b325-4c26-bb00-c681b688fa71"/>
+		</Metadata>
+		<Metadata name="Catalog.Мероприятия" id="e8cee04a-a529-4094-bbaa-b642ac3afe1e" configVersion="db897164a70c68428ee70d9062eeabec00000000">
+			<Metadata name="Catalog.Мероприятия.Attribute.СтоимостьУчастия" id="0f53b888-f8e7-4308-bf98-8bef156b23cc"/>
+			<Metadata name="Catalog.Мероприятия.Attribute.ДатаПроведения" id="30da3d9a-230f-4b5a-a441-347fe42bd16a"/>
+		</Metadata>
+		<Metadata name="Catalog.Участники" id="8a90851d-5208-4506-b8f0-07a23818bd7c" configVersion="d664fdeeaf8fa3478d4a71957bbcc4cb00000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначения" id="6b8b4f9b-d8e0-4c25-a0cd-947efadb2a47" configVersion="019b423bff5e1640b6c9ba70fcd0a0c300000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="6b8b4f9b-d8e0-4c25-a0cd-947efadb2a47.0" configVersion="c90931d6ad90f348a4c08aca8243a3c400000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияВызовСервера" id="a2979573-cd46-488e-8218-60d5638b6f8b" configVersion="5fe60ca98f856e4586de2af077246f5800000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияВызовСервера.Module" id="a2979573-cd46-488e-8218-60d5638b6f8b.0" configVersion="ecb389cde7c7214aac8a990238c21e0100000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер" id="bc49b73d-5a0a-4429-8b90-796b35654cd3" configVersion="6f6acd16db8e2b4aa8ca2c6df37c851d00000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер.Module" id="bc49b73d-5a0a-4429-8b90-796b35654cd3.0" configVersion="2e53025a79db304b8b31f28717f1737700000000"/>
+		<Metadata name="Configuration.КазначейГруппы" id="0790a7c2-8dec-4d91-b6ea-9a7f7bea46b9" configVersion="d6af1b296c18b84285e0af94f01d0b0900000000"/>
+		<Metadata name="Configuration.КазначейГруппы.ClientApplicationInterface" id="8e1975d4-37e4-4935-9dae-5a3954421a26.b" configVersion="e29fd7956b98074da66c0d8d0af52f5400000000"/>
+		<Metadata name="Configuration.КазначейГруппы.CommandInterface" id="8e1975d4-37e4-4935-9dae-5a3954421a26.a" configVersion="0e5f5fab3786b2449f2e7a9e5ddc171600000000"/>
+		<Metadata name="Configuration.КазначейГруппы.MainSectionCommandInterface" id="8e1975d4-37e4-4935-9dae-5a3954421a26.9" configVersion="6cfa61e59a4e4046b0818a736e31d0e600000000"/>
+		<Metadata name="Configuration.КазначейГруппы.ManagedApplicationModule" id="8e1975d4-37e4-4935-9dae-5a3954421a26.6" configVersion="5ba4637b5ad7fc45bfcbf7279aa405d500000000"/>
+		<Metadata name="Constant.ЗаголовокПриложения" id="55a30be9-2cac-45f9-8a6c-bc2b38da1a4b" configVersion="58156c511b34b94bbd8b09279a11cd9100000000"/>
+		<Metadata name="DataProcessor.СозданиеУчастниковИзТекста" id="418de4ba-a1c9-4f06-95ad-f8582167b510" configVersion="466c7fba92b8af44b536feb438c2382900000000"/>
+		<Metadata name="DataProcessor.СозданиеУчастниковИзТекста.Form.Форма" id="b0c4a6a4-7bed-4030-b2db-ae62e1ce0d19" configVersion="9187abf719dc3f4c995b531ab0d6fbae00000000"/>
+		<Metadata name="DataProcessor.СозданиеУчастниковИзТекста.Form.Форма.Form" id="b0c4a6a4-7bed-4030-b2db-ae62e1ce0d19.0" configVersion="7618f04dba43d949af2f2f1692588fe100000000"/>
+		<Metadata name="Document.ОплатаКазначеем" id="cb54d545-ce2e-41ea-9daa-15e482ef9b34" configVersion="366e283035e45d469386525f75e415af00000000">
+			<Metadata name="Document.ОплатаКазначеем.Attribute.Сумма" id="18bc6ee1-dc1e-413b-83f3-2ec733a8660a"/>
+			<Metadata name="Document.ОплатаКазначеем.TabularSection.Оплаты.Attribute.Мероприятие" id="3fb09d3e-a43e-46cc-bfa5-678c71c648cb"/>
+			<Metadata name="Document.ОплатаКазначеем.TabularSection.Оплаты" id="79d6130d-6deb-40bf-9d70-e4555050fc1c"/>
+			<Metadata name="Document.ОплатаКазначеем.Attribute.Мероприятие" id="971931fe-0364-4919-b345-00d166ec05a4"/>
+			<Metadata name="Document.ОплатаКазначеем.Attribute.ОплатыВТабличнойЧасти" id="a5d0fbba-e970-40c6-a813-faab7b4e1f68"/>
+			<Metadata name="Document.ОплатаКазначеем.Attribute.Комментарий" id="c6fcf7af-2d7d-494e-8eed-1849fa684f46"/>
+			<Metadata name="Document.ОплатаКазначеем.TabularSection.Оплаты.Attribute.Сумма" id="c75548c8-7580-4679-8070-5b083f941481"/>
+		</Metadata>
+		<Metadata name="Document.ОплатаКазначеем.Form.ФормаДокумента" id="02820301-51d7-4b21-9c14-fb7f21d38676" configVersion="d9a228be871e9d4582e83d69d1bf7cbd00000000"/>
+		<Metadata name="Document.ОплатаКазначеем.Form.ФормаДокумента.Form" id="02820301-51d7-4b21-9c14-fb7f21d38676.0" configVersion="1cf3a8a65f7084459667910c9f9af6e800000000"/>
+		<Metadata name="Document.ОплатаКазначеем.ObjectModule" id="cb54d545-ce2e-41ea-9daa-15e482ef9b34.0" configVersion="613534e39bd30d4dae7fc73fec76848200000000"/>
+		<Metadata name="Document.ОплатаУчастниками" id="e7fba239-f350-47f3-a0a8-005d76ad11c8" configVersion="868fd0f4988aeb488b63367232fc478d00000000">
+			<Metadata name="Document.ОплатаУчастниками.TabularSection.Оплаты.Attribute.Сумма" id="08a9f030-c2dc-4a37-966a-9b399b852c56"/>
+			<Metadata name="Document.ОплатаУчастниками.Attribute.Мероприятие" id="0c7e731e-6d39-4972-b00b-b26cdfd223ee"/>
+			<Metadata name="Document.ОплатаУчастниками.TabularSection.Оплаты.Attribute.Мероприятие" id="0fb85cb6-b637-4410-9e79-68d081b3f7b8"/>
+			<Metadata name="Document.ОплатаУчастниками.Attribute.Участник" id="1e882445-3652-4ce0-9b52-f1d00560f335"/>
+			<Metadata name="Document.ОплатаУчастниками.TabularSection.Оплаты.Attribute.Участник" id="2e76e7da-beed-47a5-b973-66f55459cd0e"/>
+			<Metadata name="Document.ОплатаУчастниками.Attribute.ОплатыВТабличнойЧасти" id="47641781-79fd-48fb-9b11-75c7763bf02c"/>
+			<Metadata name="Document.ОплатаУчастниками.TabularSection.Оплаты" id="4ff0687a-7511-4f3b-a26a-d630d5567b25"/>
+			<Metadata name="Document.ОплатаУчастниками.Attribute.Сумма" id="d64b48d3-d23d-42ce-bef7-d786fa6ec9f2"/>
+			<Metadata name="Document.ОплатаУчастниками.Attribute.Комментарий" id="f7e11348-8aee-47df-a279-f7deba5afcc8"/>
+		</Metadata>
+		<Metadata name="Document.ОплатаУчастниками.Form.ФормаДокумента" id="5ed8264d-44fd-42c1-852f-2b3208af9e31" configVersion="f9cc6018dba927438d6dd4035ec9cfb700000000"/>
+		<Metadata name="Document.ОплатаУчастниками.Form.ФормаДокумента.Form" id="5ed8264d-44fd-42c1-852f-2b3208af9e31.0" configVersion="d6e19cb2ce095342938622bf8e2b0ee100000000"/>
+		<Metadata name="Document.ОплатаУчастниками.ObjectModule" id="e7fba239-f350-47f3-a0a8-005d76ad11c8.0" configVersion="50ab4707461f6b4b8671b87a09c4dfe500000000"/>
+		<Metadata name="Document.УчастиеВМероприятии" id="4e77752e-8bc2-4039-b887-2fb0cc36dcc3" configVersion="50ce985bb9702443a4b055f09d1c631800000000">
+			<Metadata name="Document.УчастиеВМероприятии.TabularSection.Участники.Attribute.Участник" id="6e8426c0-8569-40e9-88d2-e1b3437ad586"/>
+			<Metadata name="Document.УчастиеВМероприятии.Attribute.Комментарий" id="72b8668a-6b79-498d-bac8-d151b5ed7d62"/>
+			<Metadata name="Document.УчастиеВМероприятии.Attribute.Мероприятие" id="aa7673b5-4f0e-42a2-8195-5ae0c2c63b94"/>
+			<Metadata name="Document.УчастиеВМероприятии.TabularSection.Участники" id="c554158e-ba88-4de4-9ac6-48394b3ea4e3"/>
+		</Metadata>
+		<Metadata name="Document.УчастиеВМероприятии.Form.ФормаДокумента" id="8c946d64-49b5-4fba-b49c-68b44d5370b4" configVersion="0edf75cc1c0ca9438dd67a39df7c040600000000"/>
+		<Metadata name="Document.УчастиеВМероприятии.Form.ФормаДокумента.Form" id="8c946d64-49b5-4fba-b49c-68b44d5370b4.0" configVersion="bd1a647bcc92674988cba947ad70a7e400000000"/>
+		<Metadata name="Document.УчастиеВМероприятии.ObjectModule" id="4e77752e-8bc2-4039-b887-2fb0cc36dcc3.0" configVersion="820f019c188cd748a763dd4458116c5200000000"/>
+		<Metadata name="Language.Русский" id="f1425adb-e9fa-4958-902a-3470a1eb5590" configVersion="d8044dcd455615418d9a66b87e76776c00000000"/>
+		<Metadata name="Report.ОтчетПоЗадолженностиКазначея" id="1932aff5-b6d3-4af4-937e-557539058fa0" configVersion="30fb5f27b1364449ae5b19437cb8fe9800000000"/>
+		<Metadata name="Report.ОтчетПоЗадолженностиКазначея.Template.ОсновнаяСхемаКомпоновкиДанных" id="a146890d-891a-42d9-ba9e-42eaf8ec7ff8" configVersion="23a0ca36154134428e7c419045f01c3600000000"/>
+		<Metadata name="Report.ОтчетПоЗадолженностиКазначея.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="a146890d-891a-42d9-ba9e-42eaf8ec7ff8.0" configVersion="2aed95c2f56d1d4b839d8deab0336a6600000000"/>
+		<Metadata name="Report.ОтчетПоЗадолженностиУчастников" id="013504de-b28f-4d6a-bc74-560fe3105a96" configVersion="877332352e76f14ca8d75d8e8c5041c300000000"/>
+		<Metadata name="Report.ОтчетПоЗадолженностиУчастников.Template.ОсновнаяСхемаКомпоновкиДанных" id="77e50d9a-27d9-4e12-a284-412816aa33f1" configVersion="03545089a377b14b92a5a67daba0643900000000"/>
+		<Metadata name="Report.ОтчетПоЗадолженностиУчастников.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="77e50d9a-27d9-4e12-a284-412816aa33f1.0" configVersion="1df9da81e33b784ebcb592cf370a886e00000000"/>
+		<Metadata name="Subsystem.Казначей" id="d3488653-292b-4be6-a905-364d8a63afbb" configVersion="191cbe563e244041b5e8debd2532f8bc00000000"/>
+		<Metadata name="Subsystem.Казначей.CommandInterface" id="d3488653-292b-4be6-a905-364d8a63afbb.1" configVersion="9f47149d99fb4a4a815c833dc149acd600000000"/>
+		<Metadata name="Subsystem.Мероприятия" id="ed99b2d9-71e3-477d-a1d9-45b3aa2adc74" configVersion="ac88aa7e48a4044bb3313d9c6c6e208000000000"/>
+		<Metadata name="Subsystem.Мероприятия.CommandInterface" id="ed99b2d9-71e3-477d-a1d9-45b3aa2adc74.1" configVersion="261cdf2d5c0de94785a67f369f06f40400000000"/>
+		<Metadata name="Subsystem.Настройки" id="f37cbce4-1c6c-45c9-a50b-07b9e250ebd1" configVersion="45ce3cdacf6b64428563e5484b68657c00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

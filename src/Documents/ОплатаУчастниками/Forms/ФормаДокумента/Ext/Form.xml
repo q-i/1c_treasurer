@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаДатаНомер" id="47">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа дата номер</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа дата номер</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаДатаНомерРасширеннаяПодсказка" id="48"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаШапка" id="49">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="50"/>
+			<ChildItems>
+				<InputField name="Мероприятие" id="7">
+					<DataPath>Объект.Мероприятие</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoMarkIncomplete>true</AutoMarkIncomplete>
+					<ContextMenu name="МероприятиеКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="МероприятиеРасширеннаяПодсказка" id="9"/>
+				</InputField>
+				<InputField name="Участник" id="10">
+					<DataPath>Объект.Участник</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoMarkIncomplete>true</AutoMarkIncomplete>
+					<ContextMenu name="УчастникКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="УчастникРасширеннаяПодсказка" id="12"/>
+				</InputField>
+				<InputField name="Сумма" id="13">
+					<DataPath>Объект.Сумма</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СуммаКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="СуммаРасширеннаяПодсказка" id="15"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<CheckBoxField name="ОплатыВТабличнойЧасти" id="16">
+			<DataPath>Объект.ОплатыВТабличнойЧасти</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ОплатыВТабличнойЧастиКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ОплатыВТабличнойЧастиРасширеннаяПодсказка" id="18"/>
+			<Events>
+				<Event name="OnChange">ОплатыВТабличнойЧастиПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
+		<UsualGroup name="ГруппаТабЧасть" id="51">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа таб часть</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа таб часть</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаТабЧастьРасширеннаяПодсказка" id="52"/>
+			<ChildItems>
+				<Table name="Оплаты" id="22">
+					<Representation>List</Representation>
+					<Footer>true</Footer>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Объект.Оплаты</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ОплатыКонтекстноеМеню" id="23"/>
+					<AutoCommandBar name="ОплатыКоманднаяПанель" id="24">
+						<ChildItems>
+							<Popup name="ОплатыГруппаЗаполнить" id="53">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Заполнить</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Оплаты группа заполнить</v8:content>
+									</v8:item>
+								</ToolTip>
+								<ExtendedTooltip name="ОплатыГруппаЗаполнитьРасширеннаяПодсказка" id="54"/>
+								<ChildItems>
+									<Button name="ОплатыЗаполнитьВсеДолгиУчастника" id="55">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ЗаполнитьВсеДолгиУчастника</CommandName>
+										<Picture>
+											<xr:Ref>StdPicture.CollaborationSystemUser</xr:Ref>
+											<xr:LoadTransparent>true</xr:LoadTransparent>
+										</Picture>
+										<ExtendedTooltip name="ОплатыЗаполнитьВсеДолгиУчастникаРасширеннаяПодсказка" id="56"/>
+									</Button>
+								</ChildItems>
+							</Popup>
+						</ChildItems>
+					</AutoCommandBar>
+					<ExtendedTooltip name="ОплатыРасширеннаяПодсказка" id="25"/>
+					<SearchStringAddition name="ОплатыСтрокаПоиска" id="26">
+						<AdditionSource>
+							<Item>Оплаты</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ОплатыСтрокаПоискаКонтекстноеМеню" id="27"/>
+						<ExtendedTooltip name="ОплатыСтрокаПоискаРасширеннаяПодсказка" id="28"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ОплатыСостояниеПросмотра" id="29">
+						<AdditionSource>
+							<Item>Оплаты</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ОплатыСостояниеПросмотраКонтекстноеМеню" id="30"/>
+						<ExtendedTooltip name="ОплатыСостояниеПросмотраРасширеннаяПодсказка" id="31"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ОплатыУправлениеПоиском" id="32">
+						<AdditionSource>
+							<Item>Оплаты</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ОплатыУправлениеПоискомКонтекстноеМеню" id="33"/>
+						<ExtendedTooltip name="ОплатыУправлениеПоискомРасширеннаяПодсказка" id="34"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<LabelField name="ОплатыНомерСтроки" id="35">
+							<DataPath>Объект.Оплаты.LineNumber</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ОплатыНомерСтрокиКонтекстноеМеню" id="36"/>
+							<ExtendedTooltip name="ОплатыНомерСтрокиРасширеннаяПодсказка" id="37"/>
+						</LabelField>
+						<InputField name="ОплатыМероприятие" id="38">
+							<DataPath>Объект.Оплаты.Мероприятие</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMarkIncomplete>true</AutoMarkIncomplete>
+							<ContextMenu name="ОплатыМероприятиеКонтекстноеМеню" id="39"/>
+							<ExtendedTooltip name="ОплатыМероприятиеРасширеннаяПодсказка" id="40"/>
+						</InputField>
+						<InputField name="ОплатыУчастник" id="41">
+							<DataPath>Объект.Оплаты.Участник</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMarkIncomplete>true</AutoMarkIncomplete>
+							<ContextMenu name="ОплатыУчастникКонтекстноеМеню" id="42"/>
+							<ExtendedTooltip name="ОплатыУчастникРасширеннаяПодсказка" id="43"/>
+						</InputField>
+						<InputField name="ОплатыСумма" id="44">
+							<DataPath>Объект.Оплаты.Сумма</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<FooterDataPath>Объект.Оплаты.TotalСумма</FooterDataPath>
+							<ContextMenu name="ОплатыСуммаКонтекстноеМеню" id="45"/>
+							<ExtendedTooltip name="ОплатыСуммаРасширеннаяПодсказка" id="46"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Комментарий" id="19">
+			<DataPath>Объект.Комментарий</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="21"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ОплатаУчастниками</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗаполнитьВсеДолгиУчастника" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Все долги участника...</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить все долги участника</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьВсеДолгиУчастника</Action>
+		</Command>
+	</Commands>
+</Form>
