@@ -42,8 +42,8 @@
 			<Metadata name="Document.ОплатаКазначеем.Attribute.Комментарий" id="c6fcf7af-2d7d-494e-8eed-1849fa684f46"/>
 			<Metadata name="Document.ОплатаКазначеем.TabularSection.Оплаты.Attribute.Сумма" id="c75548c8-7580-4679-8070-5b083f941481"/>
 		</Metadata>
-		<Metadata name="Document.ОплатаКазначеем.Form.ФормаДокумента" id="02820301-51d7-4b21-9c14-fb7f21d38676" configVersion="8372e6c42ddf1e4abc6d4c026df0866d00000000"/>
-		<Metadata name="Document.ОплатаКазначеем.Form.ФормаДокумента.Form" id="02820301-51d7-4b21-9c14-fb7f21d38676.0" configVersion="26e42150617e3e4584f33e5c0682100500000000"/>
+		<Metadata name="Document.ОплатаКазначеем.Form.ФормаДокумента" id="02820301-51d7-4b21-9c14-fb7f21d38676" configVersion="e4ebf0853da14e41a2c476355c404ac100000000"/>
+		<Metadata name="Document.ОплатаКазначеем.Form.ФормаДокумента.Form" id="02820301-51d7-4b21-9c14-fb7f21d38676.0" configVersion="141cd0763f4d014b8e2ca84abe683e1700000000"/>
 		<Metadata name="Document.ОплатаКазначеем.Form.ФормаСписка" id="00cb1b82-4c31-4a7e-ae6e-b457828d1573" configVersion="d0e1a2cda9692d42b1d00b6a71295b2900000000"/>
 		<Metadata name="Document.ОплатаКазначеем.Form.ФормаСписка.Form" id="00cb1b82-4c31-4a7e-ae6e-b457828d1573.0" configVersion="20bda4184d159e48bfb434849314f87800000000"/>
 		<Metadata name="Document.ОплатаКазначеем.ObjectModule" id="cb54d545-ce2e-41ea-9daa-15e482ef9b34.0" configVersion="49c9dc684bd4654a9b0ed67349dba18900000000"/>
@@ -58,8 +58,8 @@
 			<Metadata name="Document.ОплатаУчастниками.Attribute.Сумма" id="d64b48d3-d23d-42ce-bef7-d786fa6ec9f2"/>
 			<Metadata name="Document.ОплатаУчастниками.Attribute.Комментарий" id="f7e11348-8aee-47df-a279-f7deba5afcc8"/>
 		</Metadata>
-		<Metadata name="Document.ОплатаУчастниками.Form.ФормаДокумента" id="5ed8264d-44fd-42c1-852f-2b3208af9e31" configVersion="24e51122edb11d42bb63486869d97fe000000000"/>
-		<Metadata name="Document.ОплатаУчастниками.Form.ФормаДокумента.Form" id="5ed8264d-44fd-42c1-852f-2b3208af9e31.0" configVersion="b5ff335950a0454dbdfafc3a8536a49d00000000"/>
+		<Metadata name="Document.ОплатаУчастниками.Form.ФормаДокумента" id="5ed8264d-44fd-42c1-852f-2b3208af9e31" configVersion="0acfb86f2f790a45b5f9fa20e29fda3600000000"/>
+		<Metadata name="Document.ОплатаУчастниками.Form.ФормаДокумента.Form" id="5ed8264d-44fd-42c1-852f-2b3208af9e31.0" configVersion="0e05262aa5d4f0408afa233e721da4c300000000"/>
 		<Metadata name="Document.ОплатаУчастниками.Form.ФормаСписка" id="ad499b76-d202-4504-b2b7-274ccc2a5947" configVersion="887321c1d6260a4d93575865d8da89c800000000"/>
 		<Metadata name="Document.ОплатаУчастниками.Form.ФормаСписка.Form" id="ad499b76-d202-4504-b2b7-274ccc2a5947.0" configVersion="192798e9df7ef74498e5b046dab70c4b00000000"/>
 		<Metadata name="Document.ОплатаУчастниками.ObjectModule" id="e7fba239-f350-47f3-a0a8-005d76ad11c8.0" configVersion="bbc022d0bb168144a7eb59782fb1e6ed00000000"/>
